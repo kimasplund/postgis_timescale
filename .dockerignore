@@ -1,0 +1,45 @@
+# Git files
+.git
+.gitignore
+
+# GitHub specific files
+.github/
+
+# Documentation and license files
+README.md
+LICENSE
+*.md
+
+# Docker files (not needed inside the build context)
+docker-compose*
+compose*
+Dockerfile*
+
+# Local development files
+.env
+.env.*
+.vscode/
+.idea/
+**/.DS_Store
+**/__pycache__
+**/.venv
+**/.classpath
+**/.dockerignore
+**/.project
+**/.settings
+**/.toolstarget
+**/.vs
+**/*.*proj.user
+**/*.dbmdl
+**/*.jfm
+**/bin
+**/charts
+**/node_modules
+**/npm-debug.log
+**/obj
+**/secrets.dev.yaml
+**/values.dev.yaml
+
+# For more help, visit the .dockerignore file reference guide at
+# https://docs.docker.com/engine/reference/builder/#dockerignore-file
+ 
