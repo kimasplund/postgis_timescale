@@ -58,7 +58,7 @@ jobs:
           cache-to: type=gha,mode=max
 
   build-arm64:
-    runs-on: ubuntu-latest-arm64
+    runs-on: [self-hosted, linux, ARM64]
     permissions:
       contents: read
       packages: write
